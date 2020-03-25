@@ -102,9 +102,11 @@ $ git clone https://github.com/snu-csl/xv6-riscv-snu
 $ git checkout pa2
 ```
 
-The ``pa2`` branch has user-level utilities called ``setpgid`` and ``getpgid`` which simply call ``setpgid()`` and ``getpgid()`` system calls, respectively, with the given arguments. The source code of these utilities are available in ``./user/setpgid.c`` and ``./user/getpgid.c``. Using these utilities, you can change or read the PGID of the existing process.
+The first thing you have to do is to set your STUDENTID in the ``Makefile``.
 
-Any kernel-level implementation for ``setpgid()`` or ``getpgid()`` is missing. So, if you run ``setpgid`` or ``getpgid`` utility in the shell, you will get an error as shown below.
+The ``pa2`` branch has user-level utilities called ``setpgid`` and ``getpgid`` which simply call ``setpgid()`` and ``getpgid()`` system calls, respectively, with the given arguments. The source code of these utilities are available in ``./user/setpgid.c`` and ``./user/getpgid.c``. Using these utilities, you can change or read the PGID of the existing process on the shell prompt.
+
+Currently, any kernel-level implementation for ``setpgid()`` or ``getpgid()`` is missing. So, if you run ``setpgid`` or ``getpgid`` utility in the shell, you will get an error as shown below.
 
 ```
 $ make qemu
