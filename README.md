@@ -1,6 +1,6 @@
 # 4190.307 Operating Systems (Spring 2020)
 # Project #2: System calls
-### Due: 11:59PM (Wednesday), April 5
+### Due: 11:59PM (Sunday), April 5
 
 ## Introduction
 
