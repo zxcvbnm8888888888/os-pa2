@@ -168,6 +168,8 @@ $ ^p
 
 $ setpgid 0 -1
 setpgid: error
+$ getpgid 4
+getpgid: error
 ```
 
 
