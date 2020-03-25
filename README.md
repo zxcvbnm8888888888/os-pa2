@@ -95,14 +95,14 @@ In the above example, you can see that the PGID (second column) of the ``sh`` pr
 
 ## Skeleton code
 
-We have made some changes to the original ``xv6`` source code and created a new repository for upcoming projects. You need to download our customized ``xv6`` source code again. The skeleton code for this project (PA2) is available as a branch named ``pa2``. Therefore, you should work on the ``pa2`` branch as follows:
+We have made some changes to the original ``xv6`` source code and created a new repository called ``xv6-riscv-snu`` for upcoming projects. You need to download our customized ``xv6`` source code again from ``https://github.com/snu-csl/xv6-riscv-snu``. The skeleton code for this project (PA2) is available as a branch named ``pa2``. Therefore, you should work on the ``pa2`` branch as follows:
 
 ```
 $ git clone https://github.com/snu-csl/xv6-riscv-snu
 $ git checkout pa2
 ```
 
-The first thing you have to do is to set your STUDENTID in the ``Makefile``.
+After downloading, the first thing you have to do is to set your STUDENTID in the ``Makefile``.
 
 The ``pa2`` branch has user-level utilities called ``setpgid`` and ``getpgid`` which simply call ``setpgid()`` and ``getpgid()`` system calls, respectively, with the given arguments. The source code of these utilities are available in ``./user/setpgid.c`` and ``./user/getpgid.c``. Using these utilities, you can change or read the PGID of the existing process on the shell prompt.
 
@@ -126,7 +126,7 @@ getpgid: error
 $
 ```
 
-The following example shows what you should get when you implement ``setpgid()`` an ``getpgid()`` correctly.
+The following example shows what you should get when you implement ``setpgid()`` and ``getpgid()`` correctly.
 
 
 ```
