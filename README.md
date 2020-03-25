@@ -51,7 +51,7 @@ __DESCRIPTION__
 
 __RETURN VALUE__
 
-* On success, ``getpgid()`` returns zero. 
+* On success, ``getpgid()`` returns a PGID.
 * On error (e.g., process not found, invalid value of ``pid``, etc.), -1 is returned.
 
 
