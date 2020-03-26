@@ -193,7 +193,7 @@ getpgid: error
 
 * You will work on this project alone.
 * Only the upload submitted before the deadline will receive the full credit. 25% of the credit will be deducted for every single day delay.
-* __You can use up to 5 _slip days_ during this semester__. If your submission is delayed by 1 day and if you decided to use 1 slip day, there will be no penalty. In this case, you should explicitly declare the number of slip days you want to use with your submission. Saving the slip days for later projects is highly recommended!
+* __You can use up to 5 _slip days_ during this semester__. If your submission is delayed by 1 day and if you decided to use 1 slip day, there will be no penalty. In this case, you should explicitly declare the number of slip days you want to use in the QnA board of the submission server after each submission. Saving the slip days for later projects is highly recommended!
 * Any attempt to copy others' work will result in heavy penalty (for both the copier and the originator). Don't take a risk.
 
 Have fun!
